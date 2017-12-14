@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Cadastro Usuário
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page4">
+  <form id="cadastroUsuRio-form7">
+    <ion-list id="cadastroUsuRio-list3">
+      <ion-item id="cadastroUsuRio-input12">
+        <ion-label stacked>
+          Nome
+        </ion-label>
+        <ion-input type="text" placeholder="Ex: João" name="cadastroNome"></ion-input>
+      </ion-item>
+      <ion-item id="cadastroUsuRio-input15">
+        <ion-label stacked>
+          Telefone
+        </ion-label>
+        <ion-input type="tel" placeholder="Ex: 88883780" name="cadastrotelefone"></ion-input>
+      </ion-item>
+      <ion-item id="cadastroUsuRio-input13">
+        <ion-label stacked>
+          Usuário
+        </ion-label>
+        <ion-input type="text" placeholder="Ex: joao10" name="cadastroUsuario"></ion-input>
+      </ion-item>
+      <ion-item id="cadastroUsuRio-input14">
+        <ion-label stacked>
+          Senha
+        </ion-label>
+        <ion-input type="password" placeholder="" name="cadastroSenha"></ion-input>
+      </ion-item>
+      <ion-item id="cadastroUsuRio-input16">
+        <ion-label stacked>
+          Confirmar Senha
+        </ion-label>
+        <ion-input type="password" placeholder="" name="cadastroSenhaConfirmar"></ion-input>
+      </ion-item>
+    </ion-list>
+    <!--<ion-fab rigth bottom>-->
+      <!--<button ion-fab color="positive" (click)="addLogin()"><ion-icon name="add"></ion-icon></button>-->
+    <!--</ion-fab>-->
+    <button ion-button color="positive" (click)="addLogin()" block>
+      Confirmar
+    </button>
+  </form>
+</ion-content>

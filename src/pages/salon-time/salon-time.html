@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Salon Time
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page1">
+  <form id="salonTime-form5">
+    <ion-item id="salonTime-input9">
+      <ion-label stacked>
+        Data
+      </ion-label>
+      <ion-input type="date" placeholder="" name="data"></ion-input>
+    </ion-item>
+    <ion-item id="salonTime-input10">
+      <ion-label stacked>
+        Horário
+      </ion-label>
+      <ion-input type="time" placeholder="" name="horario"></ion-input>
+    </ion-item>
+    <ion-item id="salonTime-select1">
+      <ion-label>
+        Serviço
+      </ion-label>
+      <ion-select name="servico">
+        <ion-option>
+          Corte Cabelo
+        </ion-option>
+        <ion-option>
+          Sobrancelha
+        </ion-option>
+        <ion-option>
+          Manicure/pedicure
+        </ion-option>
+      </ion-select>
+    </ion-item>
+  </form>
+  <form id="salonTime-form6">
+    <ion-item id="salonTime-toggle6">
+      <ion-label>
+        Horário para terceiros?
+      </ion-label>
+      <ion-toggle color="positive" checked="false"></ion-toggle>
+    </ion-item>
+    <ion-item id="salonTime-input11">
+      <ion-label stacked>
+        Quem será atendido?
+      </ion-label>
+      <ion-input type="text" placeholder="Ex: João"></ion-input>
+    </ion-item>
+  </form>
+  <div class="spacer" style="width:300px;height:53px;" id="salonTime-spacer4"></div>
+  <button id="salonTime-button4" ion-button color="positive" block icon-left style="border-radius:10px 10px 10px 10px;">
+    <ion-icon name="add"></ion-icon>
+    Marcar Horário
+  </button>
+</ion-content>
